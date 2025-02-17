@@ -1,10 +1,10 @@
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 import './global.css';
 
 export default function App() {
   return (
       <SafeAreaView className=''>
-       {/* fazer chatGPT */}
+          <Text>Create chatGPT</Text>
       </SafeAreaView>
   );
 }
